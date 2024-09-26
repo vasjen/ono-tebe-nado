@@ -237,7 +237,7 @@ body {
 }
 
 .about {
-    padding: 0 24px;
+    padding: 3px 24px;
 }
 
 .about__column {
@@ -260,6 +260,7 @@ body {
     width: 148px;
     height: 114px;
     margin: auto;
+    padding-top: 2px;
 }
 
 .about__title {
@@ -277,7 +278,7 @@ body {
     grid-column: 2;
     gap: 24px;
     line-height: 24px;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.0071em;
 }
 
 .footer {
@@ -292,6 +293,7 @@ body {
 
 .footer__menu {
     line-height: 21.13px;
+    text-transform: lowercase;
 }
 
 .footer__menu-list {
