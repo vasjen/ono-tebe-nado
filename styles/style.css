@@ -86,11 +86,13 @@ body {
     font-weight: 700;
     font-size: 100px;
     letter-spacing: 0.3em;
+    display: grid;
+    gap: 20px;
 }
 
 .aligned-text {
     display: block;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     line-height: 115px;
 }
 
@@ -118,7 +120,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 115px;
+    padding-top: 135px;
     font-weight: 500;
 }
 
